@@ -522,9 +522,6 @@ font-family:Proxima Nova;
   .col-lg-8 {
     width: 40%;
   }
-  .podtyt {
-  color:blue;
-  }
   }
  @media screen and (min-width: 1442px) and (max-width:1767px)
   {
@@ -534,9 +531,6 @@ font-family:Proxima Nova;
   .col-lg-8 {
     width: 50%;
   }
-  .podtyt {
-   color:red;
-   }
   }
   @media screen and (min-width: 1415px) and (max-width:1441px)
   {
