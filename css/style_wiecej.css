@@ -1,4 +1,7 @@
-  ::-webkit-scrollbar {
+ @font-face { 
+  font-family: Proxima Nova; src: url('Proxima-Nova.otf');
+}
+::-webkit-scrollbar {
       width: 10px;
       background-color: #F5F5F5;
     
