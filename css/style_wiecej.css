@@ -508,16 +508,7 @@
       height: calc(100vh - 4px); 
 }
   
-  
-   @media (min-width: 1768px)
-  {
-  .col-lg-offset-2 {
-      margin-left: 650%;
-  }
-  .col-lg-8 {
-    width: 30%;
-  }
-@media screen (min-width: 1442px) and (max-width: 1767px)
+@media (min-width: 1442px)
   {
   .col-lg-offset-2 {
       margin-left: 30%;
@@ -800,9 +791,6 @@
   .content p{
     font-size: 35px;
     font-weight: 600;
-  }
-  @font-face { 
-  font-family: Proxima Nova; src: url('Proxima-Nova.otf');
   }
   
   #active:checked ~ .wrapper ul li a{
