@@ -514,16 +514,16 @@ font-family:Proxima Nova;
       height: calc(100vh - 4px); }
   
   
-  @media screen and (min-width: 1768px)
+  @media screen and (min-width: 1768px) and (max-width:1000000px)
   {
   .col-lg-offset-2 {
-      margin-left: 80%;
+      margin-left: 30%;
   }
   .col-lg-8 {
-    width: 43%;
+    width: 60%;
   }
   }
- @media screen and (min-width: 1442px) and (max-width:1767)
+ @media screen and (min-width: 1442px) and (max-width:1767px)
   {
   .col-lg-offset-2 {
       margin-left: 30%;
