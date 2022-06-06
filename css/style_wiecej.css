@@ -511,7 +511,7 @@
    @media (min-width: 1768px)
   {
   .col-lg-offset-2 {
-      margin-left: 30%;
+      margin-left: 60%;
   }
   .col-lg-8 {
     width: 60%;
@@ -799,6 +799,9 @@
   .content p{
     font-size: 35px;
     font-weight: 600;
+  }
+  @font-face { 
+  font-family: Proxima Nova; src: url('Proxima-Nova.otf');
   }
   
   #active:checked ~ .wrapper ul li a{
