@@ -1,5 +1,9 @@
  @font-face { 
-  font-family: Proxima Nova; src: url('Proxima-Nova.otf');
+  font-family:"Proxima Nova"; src: url('Proxima-Nova.otf');
+}
+* {
+font-family:Proxima Nova;
+}
 }
 ::-webkit-scrollbar {
       width: 10px;
@@ -839,7 +843,7 @@
     background-color: none;
     z-index: 1;
   }
-  #podtyt {
+  .podtyt {
     color:transparent;
     font-family:Proxima Nova;
     text-transform:uppercase;
@@ -860,7 +864,7 @@
   } 
   @media only screen and  (max-width: 767px)
   {
-  #podtyt {
+  .podtyt {
     top:40px;
   }
   #tytulp {
